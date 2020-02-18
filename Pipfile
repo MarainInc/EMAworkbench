@@ -1,0 +1,26 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+ipykernel = "*"
+future = "*"
+futures = "*"
+numpy = "*"
+scipy = ">=1.2.*"
+pandas = ">=1.0.*"
+ipython = "*"
+ipyparallel = "*"
+scikit-learn = "*"
+seaborn = "*"
+matplotlib = "*"
+pyzmq = "*"
+pysd = "*"
+statsmodels = "*"
+JPype1 = "*"
+
+[requires]
+python_version = "3.7"
