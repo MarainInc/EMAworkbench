@@ -3,7 +3,7 @@ future
 futures
 numpy
 scipy>=1.2.*
-pandas>=0.24.*
+pandas>=1.0.*
 ipython
 ipyparallel
 JPype1
