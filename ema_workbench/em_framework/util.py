@@ -200,10 +200,10 @@ def combine(*args):
     '''
     experiment = copy.deepcopy(args[0])
     for entry in args[1::]:
-        overlap = set(experiment.keys()).intersection(set(entry.keys()))
-        if overlap:
-            raise EMAError('parameters exist in {} and {}, overlap is {}'.format(
-                experiment, entry, overlap))
+        # overlap = set(experiment.keys()).intersection(set(entry.keys()))
+        # if overlap:
+        #     raise EMAError('parameters exist in {} and {}, overlap is {}'.format(
+        #         experiment, entry, overlap))
         experiment.update(entry)
 
     return experiment
