@@ -856,5 +856,5 @@ def parameters_from_csv(uncertainties, **kwargs):
         if type == 'cat':
             uncs.append(parameter_map[type](name, values))
         else:
-            uncs.append(parameter_map[type](name, *values))
+            uncs.append(parameter_map[type](name, *values.astype(float)))
     return uncs
